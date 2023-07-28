@@ -1,0 +1,183 @@
+{
+  "Users": [
+    {
+      "nombre":"Francis",
+      "email": "francisdelgadoa@hotmail.com",
+      "password": "Hola1234",
+      "id":"1"
+    },
+    {
+      "nombre":"Christian",
+      "email": "Christian@alura.com",
+      "password": "Hola12345",
+      "id":"2"
+      
+    },
+    {
+      "nombre":"Francis",
+      "email": "francisdelgadoa@gmail.com",
+      "password": "Hola123456",
+      "id":"3"
+      
+    }
+  ],
+  
+  "Productos": [
+    {
+      "imagenURL":"../img/unsplash_6FDXGY9J6y4.png",
+      "name": "Tarro de ceramica Soldado Tropper",
+      "categorie":"StarsWars",        
+      "price": "$279 MXN",
+      "description":"Zak Tarro De Ceramica 3D: Star Wars - Soldado Tropper 443 ml. Zak trae para ti la nueva colección de tarros 3D con los diseños de tus personajes favoritos, directamente de Star Wars llega el nuevo .Zak Tarro De Ceramica 3D: Star Wars - Soldado Tropper 443 ml con un diseño 3D que fascinara a todos, este tarro está hecho de cerámica de alta calidad y esta listo para acompañar tus mañanas en el desayuno o para adornar tu repisa, además este tarro cuenta con un asa resistente.Incluye:Tarro 3D de Ceramica de 443 ml de Stormtrooper",
+      "id":"1"
+    },
+    {
+      "imagenURL":"../img/unsplash_epRFE_hBNjo.png",
+      "name": "Casco de Dark Vader LEGO",
+      "categorie":"StarsWars",
+      "price": "$893 MXN",
+      "description":"LEGO Star Wars - 75304 Darth Vader Helmet - New Factory Sealed in Box.",
+      "id":"2"
+    },
+    {
+      "imagenURL":"../img/unsplash_KeGToDVN0l4.png",
+      "name": "Figura de Yoda",
+      "categorie":"StarsWars",
+      "price": "$560 MXN",
+      "description":"Hombre con chaqueta verde y sombrero verde con peluche de rana verde",
+      "id":"3"
+    },
+
+    {
+      "imagenURL":"../img/unsplash_4OHkK555s1A.png",
+      "name": " Figura soldado StarWars",
+      "categorie":"StarsWars",
+      "price": "$141.92 MXN",
+      "description":"Soldado de asalto antiguo de Star Wars! + Tarjeta Biográfica! ¡LFL 3.75 ”Power of the Force 1998 Figura de acción solamente",
+      "id":"4"
+    },
+
+    {
+      "imagenURL":"../img/unsplash_6FDXGY9J6y4.png",
+      "name": "Baby Yoda",
+      "categorie":"StarsWars",
+      "price": "$680 MXN",
+      "description":"Peluche mattel gwd85 star wars - baby yoda the mandalorian 28 cm",
+      "id":"5"
+    },
+    {
+      "imagenURL":"../img/unsplash_1VV1MRafd7A.png",
+      "name": "Star Wars Cosplay  Kylo Ren",
+      "categorie":"StarsWars",
+      "price": "$1808.55 MXN",
+      "description":"Big Fish - alta calidad de Star Wars Kylo Ren cosplay 2015 nuevo estilo venta de halloween navidad",
+      "id":"6"
+    },
+
+    {
+      "imagenURL":"../img/unsplash_0POwK6iAiRQ.png",
+      "name": "Controlador xBox One Blanco",
+      "categorie":"Consolas",
+      "price": "$677.54 MXN",
+      "description":"Usado. Un artículo que se utilizó anteriormente El artículo puede poseer algunos signos de desgaste cosmético; sin embargo, está totalmente operativo y funciona como fue planeado. Este artículo puede haber sido exhibido en la tienda o puede haber sido devuelto a la tienda tras ser utilizado. Consulta el anuncio del vendedor para ver información detallada y una descripción de las imperfecciones",
+      "id":"7"
+    },
+    {
+      "imagenURL":"../img/unsplash_caNzzoxls8Q.png",
+      "name": "Playstation5 PS5 Cubierta De La Consola De Juegos Repuesto Para PS5 Carcasa Protectora Azul ",
+      "categorie":"Consolas",
+      "price": "$857.90 MXN",
+      "description":"Ámbito de aplicación: PS5.Características adicionales: enfriamiento, soporte.Material: plástico de ingeniería EVA.Productos aplicables: consola PS5.Grupo de edad aplicable: 16 años y más.Tipo de accesorios de la consola de juegos: Otros periféricos de juegos.",
+      "id":"8"
+    },
+    {
+      "imagenURL":"../img/unsplash_ZV7lnfyQLmA.png",
+      "name": "NES originales de Nintendo",
+      "categorie":"Consolas",
+      "price": "$3,495.88 MXN",
+      "description":"Hermoso sistema de entretenimiento original de Nintendo. Condición superior. Versión europea PAL. Se incluyen 2 gamepads originales y el cable de alimentación original de Nintendo. La consola ha sido probada y funciona sin errores",
+      "id":"9"
+    },
+    {
+      "imagenURL":"../img/unsplash_wa5z9o9fgjw.png",
+      "name": "Original Nintendo Switch Animal Crossing Edition New Horizons Joy Cons Oem",
+      "categorie":"Consolas",
+      "price": "$448 MXN",
+      "description":"Mando inalámbrico para Nintendo Switch, mando izquierdo y derecho, nuevo.Color : red and blue",
+      "id":"10"
+    },
+
+    {
+      "imagenURL":"../img/unsplash_4OHkK555s1A.png",
+      "name": "Computadora de escritorio HP Pavilion",
+      "categorie":"Consolas",
+      "price": "$848.00 USD",
+      "description":"Computadora de escritorio para juegos HP Pavilion 2022, procesador AMD 6-Core Ryzen 5 5600G (Beat i7-10700K), AMD Radeon RX 5500, 32GB de RAM, SSD PCIe NVMe de 1TB, mouse y teclado, Win 10 Home + Accesorios",
+      "id":"11"
+    },
+   
+    {
+      "imagenURL":"../img/unsplash_6FDXGY9J6y4.png",
+      "name": "Nintendo Game Boy Pocket Clear Handheld System",
+      "categorie":"Consolas",
+      "price": "$86,69 EUR",
+      "description":"Estado: Usado",
+      "id":"12"
+    },
+
+    {
+      "imagenURL":"../img/unsplash_fMP-oCze3AY.png",
+      "name": "Camisa con bordado",
+      "categorie":"Diversos",
+      "price": "$129 MXN",
+      "description":"Algodon 90% Poliester 10%",
+      "id":"13"
+    },
+    {
+      "imagenURL":"../img/unsplash_fMP-oCze3AY.png",
+      "name": "Camisas H&M ",
+      "price": "$99.99 EUR",
+      "categorie":"Diversos",
+      "description":"Azul claro jaspeado, Super Mario, Super Mario, control Nintendo, Super Mario",
+      "id":"14"
+    },
+    {
+      
+      "imagenURL":"../img/unsplash_sYVY_ZKwaxU.png",
+      "name": "Sonic The Hedgehog Mini Icons Sonic Classic Edition Figura",
+      "price": "$890.52 MXN",
+      "categorie":"Diversos",
+      "description":"Fabricación: resina pintada a mano con acabado lacado de alta calidad.Color: clásico (también disponible en azul y gris).Peso: 300 g. Dimensiones: 13,5 x 8 x 9 cm.Producto con licencia oficial: SEGA",
+      "id":"15"
+    },
+
+    { 
+      "imagenURL":"../img/unsplash_jMT6BrgBuXU.png",
+      "name": "Radio Rosa ",
+      "price": "$167.92 MXN",
+      "categorie":"Diversos",
+      "description":"Radio antigua, usada.",
+      "id":"16"
+    },
+
+    {
+      
+      "imagenURL":"../img/unsplash_MxVkWPiJALs.png",
+      "name": "Playstation Vr Reacondicionado",
+      "categorie":"Diversos",
+      "price": "$3,545.32MXN",
+      "description":"El producto está ( reacondicionado ) es totalmente funcional y está en excelentes condiciones",
+      "id":"17"
+    },
+    {       
+      "imagenURL":"../img/unsplash_MxVkWPiJALs.png",
+      "name": "Disfraz de Pikachu",
+      "categorie":"Diversos",
+      "price": "$12,015.15 MXN",
+      "description":"100% nuevo y de alta calidad.Material: algodón.Peso: aproximadamente 2kg.Tamaño: 155cm ~ 165cm, 165cm ~ 175cm y 175cm ~ 185cm.Edad: >12 años",
+      "id":"18"
+    }
+  ]
+
+  
+}

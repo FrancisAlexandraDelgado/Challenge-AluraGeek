@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login AluraGeek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="../screens/index.html" rel="stylesheet" />
+    <link href="../assets/reset.css" rel="stylesheet" />
+    <link href="../assets/header.css" rel="stylesheet" />
+    <link href="../assets/login/login.css" rel="stylesheet" />
+    <link href="../assets/footer.css" rel="stylesheet" />
+    <link href="../assets/footer-form.css" rel="stylesheet" />
+    <link href="../assets/rodapie.css" rel="stylesheet" />
+    
+
+        
+</head>
+<body>
+    <header class="header_">
+      <div class=header__cuadro>
+        <a href="../screens/index.html"><img class="header__logo" src="../img/Logo.svg" alt="Logo"></a>
+       </div>
+       <div class=header__cuadro-bl>
+           <form method="post" target="_blank">
+               <div class="header__buscador">          
+               <input  class="header__busqueda" type="search" name="buscador" placeholder="¿Qué deseas buscar?" data-busqueda>
+               <button class="header__boton-buscar" type="submit"><img src="../img/Vector.png"></button>
+               </div>
+           </form>
+       </div>
+        
+    </header>
+    <section class="Login">
+      <h1 class="Login__titulo">Iniciar Sesión </h1>
+      <div class="Login-cuadro">  
+        <form action=" "   class="Conctacto__formulario"   id="formulario" data-form>
+                          
+          <div class="login-container" >
+              <input 
+                type="email" 
+                name="email" 
+                id="email" 
+                class="login__input" 
+                placeholder="Escriba su correo electronico"
+                data-tipo="email"
+                pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"
+                data-email
+                required>
+              <label class="login-label" for="email">Nombre</label>
+              <span class="input-message-error">Este campo no es valido</span>
+          </div>
+            
+          <div class="login-container">
+            <input 
+              type="password" 
+              name="password" 
+              id="password" 
+              class="login__input"  
+              placeholder="Escriba su contraseña" 
+              minlength="8" 
+              maxlength="14"
+              pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" 
+              title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." 
+              data-tipo="password"
+              data-password
+              required > 
+
+            <label class="login-label" for="password">Contraseña</label>
+            <span class="input-message-error">Este campo no es valido</span>
+          </div>
+                        
+          <div>  
+            <input type="submit" class="Login__boton" value="Entrar">
+            <span class="login__message-error">*Usuario y/o clave incorrecta</span>
+          </div>  
+        </form>
+      </div>  
+    </section>
+   
+        
+    <section class="footer">
+      <div class="footer_cadrado">
+        <img  class="footer__imagen" src="../img/Logo.svg"  href="#" alt="Logo">
+        <div class="footer__información">
+            <nav class="footer__cuadro">
+                <ul class="footer__lista">
+                    <li class="footer__item"><a class="footer__link" href="#">Quienes somos</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Política de privacidad</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Programa de fidelidad</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Nuestras Tiendas</a> </li>
+                    <li class="footer__item"><a class="footer__link" href="#">Quiero ser franquiciado</a> </li>
+                    <li class="footer__item"><a class="footer__link" href="#">Anúncie aquí</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+      <div class="footer__form">
+        <h2 class="footer__pregunta">Hable con nosotros </h2>
+        <form action=" "   class="footer__formulario"   id="footer__formulario" data-form>
+            
+            <fieldset>
+                <div class="input-container">
+                    <input 
+                        name="name" 
+                        id="grupo__nombre" 
+                        class="input" 
+                        type="text" 
+                        placeholder="Nombre"
+                        data-tipo="nombre" 
+                        pattern="^[a-zA-ZÀ-ÿ\s]{3,40}$"
+                        data-nombre
+                        required/>
+                    <label class="input-label" for="name">Nombre</label>
+                    <span class="input-message-error">El campo es invalido</span>
+                </div>                  
+                <div class="textarea-container" >
+                    <div>
+                        <textarea 
+                            name="mensaje" 
+                            id="mensaje" 
+                            type="text"
+                            class="textarea" 
+                            placeholder="Escribe tu mensaje" 
+                            minlength="4"
+                            maxlength="120"
+                            data-tipo="mensaje" 
+                            data-mensaje
+                            required></textarea>                     
+                    </div>
+                    <span class="textarea-mensage-error">El campo es invalido</span>
+                </div>
+            </fieldset>
+                    
+            <div>  
+            <button type="submit" class="footer__boton">Enviar mensaje</button>
+            <p class="footer__mensaje-exito" id="footer__mensaje-exito">¡Formulario enviado exitosamente!</p>
+            </div>  
+      </form>
+    </div>
+  
+</section>
+<footer class="rodapie">
+    <p class="rodapie__nombre">Desarrollado por Francis Alexandra Delgado Barragán </p>
+    <p class="rodapie__año"> 2023 </p>
+</footer>
+
+<script type="module" src="../JS/validaciones.js"></script>
+<script type="module" src="../JS/controlladores/loginuser.js"></script>
+<script type="module" src="../JS/login.js"></script>
+<script src="../JS/botones/buscador.js"></script>
+¿
+</body>
+</html> 

@@ -1,0 +1,195 @@
+
+.footer__form{
+    flex-grow: 2;
+}
+
+.footer__pregunta{
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #464646;
+
+}
+.footer__formulario{
+    margin-top: 2rem;
+  }
+  
+.form__label {
+   font-size: 1rem;
+   margin-bottom: 1rem;
+   color: #464646;
+}
+  
+.input-container {
+    font-weight: var(--font-weigth-input);
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+  
+.input {
+    box-sizing: border-box;
+    padding: 1.375rem 0.5rem 0.5rem;
+    background-color: #FFFFFF;
+    height: 3.25rem;
+    width: 100%;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    
+}
+  
+.input::placeholder {
+    visibility: hidden;
+    color: #464646;
+    font-family: Inter, sans-serif;
+}
+  
+.input:focus {
+    outline: none;
+}
+  
+.input-label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-family:Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all 0.25s;
+    font-weight: bold;
+    color: #464646;
+}
+  
+.input:not(:placeholder-shown) + .input-label,
+  .input:focus + .input-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+}
+  
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+}
+  
+.input-container--invalid ._input {
+    border: 1px solid #2A7AE4;
+    border-radius: 7px;
+}
+  
+.input-container--invalid .input-label {
+    color:#2A7AE4 ;
+}
+  
+.input-message-error {
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: left;
+    color: #2A7AE4;
+    font-family: Inter, sans-serif;
+    display: none;
+}
+  
+.input-container--invalid .input-message-error {
+    color:#2A7AE4;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+  
+.textarea {
+    box-sizing: border-box;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 7px;
+    width: 100%;
+    min-height: 3rem;
+    font-family: Inter, sans-serif;
+    height: 100px;
+    font-size: 1rem;
+}
+.textarea::placeholder{
+    font-family: Inter,sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: normal;
+}
+  
+.textarea-container {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+ 
+  
+.textarea:focus {
+    outline: none;
+}
+  
+  
+  
+.textarea:not(:placeholder-shown) + .textarea-label,
+  .textarea:focus + .textarea-label {
+    font-size: 0.875rem;
+    top: -1.25rem;
+    transition: all 0.25s;
+}
+  
+.textarea-container--invalid {
+    margin-bottom: 0.5rem;
+}
+  
+.textarea-container--invalid .textarea {
+    border: 1px solid #2A7AE4;
+}
+  
+.textarea-container--invalid .textarea-label {
+    color:#2A7AE4;
+}
+  
+.textarea-mensage-error {
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: left;
+    color: #2A7AE4;
+    font-family: Inter, sans-serif;
+    display: none;
+    
+}
+  
+.textarea-container--invalid .textarea-mensage-error {
+    display: block;
+    color: #2A7AE4;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+    
+.footer__boton{
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    font-family: Inter, sans-serif; 
+    border: none;
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.footer__mensaje-exito{
+    font-size: 1rem;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    padding: 1rem;
+    color: #2A7AE4;
+    visibility: hidden;
+}   
+
+
+
+

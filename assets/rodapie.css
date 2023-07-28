@@ -1,0 +1,12 @@
+.rodapie{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Inter,sans-serif;
+    color:464646;
+    font-weight: 300;
+    font-size: small;
+    padding: 1rem 3rem 1rem 3rem;
+    
+}

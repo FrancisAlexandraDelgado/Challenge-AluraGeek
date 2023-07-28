@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos a AluraGeek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="../screens/index.html" rel="stylesheet" />
+    <link href="../screens/productos.html" rel="stylesheet" />
+    <link href="../screens/agregarProducto.html" rel="stylesheet" />
+    <link href="../screens/adminProducto.html" rel="stylesheet" />
+    <link href="../screens/buscadorAdm.html" rel="stylesheet" />
+    <link href="../screens/editarProducto.html" rel="stylesheet" />
+    <link href="../assets/reset.css" rel="stylesheet" />
+    <link href="../assets/header.css" rel="stylesheet" />
+    <link href="../assets/agregar-producto.css" rel="stylesheet" />
+    <link href="../assets/footer.css" rel="stylesheet" />
+    <link href="../assets/footer-form.css" rel="stylesheet"/>
+    <link href="../assets/rodapie.css" rel="stylesheet" />
+        
+</head>
+<body>
+    <header class="header_">
+        <div class=header__cuadro>
+            <a href="../screens/index.html"><img class="header__logo" src="../img/Logo.svg" alt="Logo"></a>
+        </div>
+         <div class=header__cuadro-bl>
+            <div class="header__buscador">          
+                <input  class="header__busqueda" type="search" name="buscador" placeholder="¿Qué deseas buscar?" data-busqueda >
+                <button class="header__boton-buscar" type="submit"><img src="../img/Vector.png"></button>
+            </div>
+            <button  class="header__boton-menu" type="submit"><a href="../screens/index.html">Menú principal</a></button>
+        </div>
+    </header>
+    <section class="productos">
+        <h2 class="producto__title">Agregar nuevo producto</h2>
+        <form  class="producto__formulario flex flex--column" data-form>
+            <fieldset>
+                <div class="producto__input-container">
+                    <input name="url" id="url" class="producto__input" type="text" placeholder="URL de la imagen" data-url data-tipo="URL" required>
+                    <label class="producto__input-label" for="URL">URL de imagen</label>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+              
+                <div class="producto__input-container">
+                    <input name="name" id="name" class="producto__input" type="text" placeholder="Producto XYZ" minlength="6" maxlength="50"data-tipo="nombre" data-nombre required>
+                    <label class="producto__input-label" for="name">Nombre del producto</label>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <div class="producto__select-container">
+                    <label class="producto__select-label" for="categorie">Categoria </label>
+                    <select name="categorie" id="categorie" class="producto__select" type="text" placeholder=""   data-tipo="categoria"  data-categoria required>
+                        <option disabled selected  value="">Seleccione</option>
+                        <option data-tipo="StarWars"  value="Consolas">StarWars</option>
+                        <option data-tipo="Consolas"  value="Consolas">Consolas</option>
+                        <option data-tipo="Diversos"  value="Consolas">Diversos</option>
+                   </select>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+
+                <div class="producto__input-container">
+                    <input name="price" id="price" class="producto__input" type="text" placeholder="$ 60.00" data-tipo="precio" data-precio required>
+                    <label class="producto__input-label" for="price">Precio</label>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <div class="producto__textarea-container">
+                    <textarea name="description" id="description" class="producto__textarea" type="text" placeholder="Desarrollado del producto" data-tipo="descripcion" data-descripcion required></textarea>
+                    <label class="producto__textarea-label" for="mesage">Descripcion del producto</label>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+            </fieldset>
+            <button type="submit" class="producto__button">Registrar</a>
+        </form>
+    </section>
+    <section class="footer">
+        <div class="footer_cadrado">
+            <img  class="footer__imagen" src="../img/Logo.svg"  href="#" alt="Logo">
+            <div class="footer__información">
+                <nav class="footer__cuadro">
+                    <ul class="footer__lista">
+                        <li class="footer__item"><a class="footer__link" href="#">Quienes somos</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Política de privacidad</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Programa de fidelidad</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Nuestras Tiendas</a> </li>
+                        <li class="footer__item"><a class="footer__link" href="#">Quiero ser franquiciado</a> </li>
+                        <li class="footer__item"><a class="footer__link" href="#">Anúncie aquí</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__form">
+            <h2 class="footer__pregunta">Hable con nosotros </h2>
+            <form action=" "   class="footer__formulario"   id="footer__formulario" data-form>
+                
+                <fieldset>
+                    <div class="input-container">
+                        <input 
+                            name="name" 
+                            id="grupo__nombre" 
+                            class="input" 
+                            type="text" 
+                            placeholder="Nombre"
+                            data-tipo="nombre" 
+                            pattern="^[a-zA-ZÀ-ÿ\s]{3,40}$"
+                            data-nombre
+                            required/>
+                        <label class="input-label" for="name">Nombre</label>
+                        <span class="input-message-error">El campo es invalido</span>
+                    </div>                  
+                    <div class="textarea-container" >
+                        <div>
+                            <textarea 
+                                name="mensaje" 
+                                id="mensaje" 
+                                type="text"
+                                class="textarea" 
+                                placeholder="Escribe tu mensaje" 
+                                minlength="4"
+                                maxlength="120"
+                                data-tipo="mensaje" 
+                                data-mensaje
+                                required></textarea>                     
+                        </div>
+                        <span class="textarea-mensage-error">El campo es invalido</span>
+                    </div>
+                </fieldset>
+                        
+                <div>  
+                <button type="submit" class="footer__boton">Enviar mensaje</button>
+                <p class="footer__mensaje-exito" id="footer__mensaje-exito">¡Formulario enviado exitosamente!</p>
+                </div>  
+          </form>
+        </div>
+      
+    </section>
+    <footer class="rodapie">
+        <p class="rodapie__nombre">Desarrollado por Francis Alexandra Delgado Barragán </p>
+        <p class="rodapie__año"> 2023 </p>
+    </footer>
+    <script crossorigin="anonymous"
+    integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+    referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+    <script type="module" src="../JS/controlladores/addProducto.js"></script>
+    <script type="module" src="../JS/validaciones.js"></script>
+    <script src="../JS/botones/buscador.js"></script>
+</body>
+</html> 
